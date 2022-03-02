@@ -133,15 +133,17 @@
   border-style: none;
   color: white;
 }
-.imageContainer{
-position: relative;
+.imageContainer {
+  position: relative;
+}
+.videoIcon {
+  color: black;
 }
 @media all and (max-width: 1400px) {
   .leftProject,
   .rightProject {
     justify-content: center;
     text-align: center;
-    align-items: center;
     width: 70vw;
     position: relative;
   }
@@ -176,7 +178,7 @@ position: relative;
   }
   .btn-primary,
   .btn-primary2 {
-    top: 56%;
+    /* top: 56%; */
     left: 45%;
     right: 30%;
     font-size: 10vw;

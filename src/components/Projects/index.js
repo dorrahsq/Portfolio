@@ -157,7 +157,7 @@ const Projects = () => {
                   setVideo(projects.projeect3.videoUrl);
                 }}
               >
-                <BsFillPlayCircleFill />
+                <BsFillPlayCircleFill  className="videoIcon"/>
               </button>
               <img className="websiteImage" src={projects.projeect3.image} alt="" />
             </div>
