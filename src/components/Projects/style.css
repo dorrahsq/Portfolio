@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap");
+
+.projectsContainer {
+  margin-top: 5%;
+  color: white;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.projectsContainer h1 {
+  font-size: 4vw;
+}
+.projectsContainer > div {
+  margin: 0% 14% 10%;
+  font-family: "Arima Madurai", cursive;
+}
+.leftProject {
+  text-align: left;
+  align-items: left;
+}
+.rightProject {
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: right;
+}
+.leftProject,
+.rightProject {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 30px;
+  box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
+}
+.text1 {
+  padding-left: 2%;
+  width: 50%;
+}
+.text {
+  padding-right: 2%;
+  width: 50%;
+}
+.websiteImage {
+  width: 34vw;
+  border-radius: 30px;
+  height: 100%;
+  position: relative;
+}
+.shadow {
+  position: absolute;
+  width: 34vw;
+  border-radius: 30px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  /* box-shadow: inset 0px 6px 11px 3px #000000;
+  -webkit-box-shadow: inset 0px 6px 11px 3px #0000007a;
+  -moz-box-shadow: inset 0px 6px 11px 3px #B0B0B0;
+  -o-box-shadow: inset 0px 6px 11px 3px #B0B0B0; */
+}
+.headLine,
+.headLineRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headLine h2 {
+  border-left: 3px solid rgb(255, 255, 255);
+  padding-left: 7px;
+}
+.headLineRight h2 {
+  border-right: 3px solid rgb(255, 255, 255);
+  padding-right: 7px;
+}
+.headLine h2,
+.headLineRight h2 {
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+.headLine a,
+.headLineRight a {
+  text-decoration: none;
+  color: white;
+}
+.icon {
+  transition: 0.5s ease;
+  font-size: 2.5vw;
+}
+.icon:hover {
+  color: white;
+  transform: scale(1.25) perspective(1px);
+  cursor: pointer;
+}
+.techP {
+  color: rgb(204, 202, 202);
+}
+.websiteDescription,
+.techP {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.btn-primary,
+.btn-primary2 {
+  border-style: none;
+  position: absolute;
+  top: 38%;
+  z-index: 3;
+  background-color: rgb(255, 255, 255);
+  height: 5vw;
+  border-radius: 50%;
+  font-size: 5vw;
+  transition: 0.5s ease;
+}
+.btn-primary:hover,
+.btn-primary2:hover {
+  transform: scale(1.2) perspective(1px);
+  cursor: pointer;
+}
+.btn-primary {
+  right: 14vw;
+}
+.btn-primary2 {
+  left: 14vw;
+}
+.iconBtn {
+  height: 2.5vw;
+  width: 2.5vw;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  color: white;
+}
+@media all and (max-width: 1400px) {
+  .leftProject,
+  .rightProject {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 70vw;
+    position: relative;
+  }
+  .websiteImage {
+    width: 70vw;
+    margin-top: 2vw;
+  }
+  .headLine,
+  .headLineRight {
+    justify-content: center;
+  }
+  .headLine h2,
+  .headLineRight h2 {
+    border: none;
+    padding: 0;
+  }
+  .headLineRight {
+    flex-direction: row-reverse;
+  }
+  .projectsContainer > div {
+    margin: 0% 15% 10%;
+  }
+  .headLine span,
+  .headLineRight span {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  .text1,
+  .text {
+    width: 90%;
+  }
+  .btn-primary,
+  .btn-primary2 {
+    top: 56%;
+    left: 45%;
+    right: 30%;
+    font-size: 10vw;
+    width: 10vw;
+    height: 10vw;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .leftProject,
+  .rightProject,
+  .websiteImage {
+    width: 70vw;
+  }
+  .projectsContainer > div {
+    margin: 0% 15% 10%;
+  }
+  .headLine span,
+  .headLineRight span {
+    top: 15px;
+  }
+}
+@media all and (max-width: 550px) {
+  .headLineRight h2,
+  .headLine h2 {
+    font-size: 15px;
+  }
+  .leftProject,
+  .rightProject,
+  .websiteImage {
+    width: 80vw;
+  }
+  .projectsContainer > div {
+    margin: 0% 10% 10%;
+  }
+  .websiteDescription {
+    font-size: 5px;
+    margin: 0;
+  }
+  .techP {
+    font-size: 5px;
+  }
+  .headLine span,
+  .headLineRight span {
+    top: 0.5vw;
+  }
+}

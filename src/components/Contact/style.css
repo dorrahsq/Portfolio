@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+.contactWrap {
+  margin-top: 35%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-family: "Quintessential", cursive;
+  padding-bottom: 5%;
+  position: relative;
+  z-index: 2;
+}
+
+.linkedIn,
+.github,
+.mail {
+  background-color: rgb(255, 255, 255);
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  transition: 0.5s ease;
+  margin: 1vw;
+  box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
+  -moz-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
+}
+.linkedIn:hover,
+.github:hover,
+.mail:hover {
+  transform: scale(1.2) perspective(1px);
+  cursor: pointer;
+}
+.linkedIn {
+  font-size: 2.5vw;
+}
+.github {
+  font-size: 2.7vw;
+}
+.mail {
+  font-size: 3vw;
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.contactWrap h1 {
+  font-size: 5vw;
+  text-shadow: 0 4px 30px rgba(255, 255, 255, 0.582);
+}
