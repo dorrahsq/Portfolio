@@ -85,7 +85,7 @@ const Projects = () => {
                   setVideo(projects.projeect1.videoUrl);
                 }}
               >
-                <BsFillPlayCircleFill />
+                <BsFillPlayCircleFill  className="videoIcon"/>
               </button>
 
               <img className="websiteImage" src={projects.projeect1.image} alt=""/>
@@ -122,7 +122,7 @@ const Projects = () => {
                   setVideo(projects.projeect2.videoUrl);
                 }}
               >
-                <BsFillPlayCircleFill />
+                <BsFillPlayCircleFill className="videoIcon" />
               </button>
               <img className="websiteImage" src={projects.projeect2.image} alt="" />
             </div>
