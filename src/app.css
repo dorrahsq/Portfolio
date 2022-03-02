@@ -92,32 +92,32 @@
 }
 
 .shape1.animated {
-  -webkit-animation: 5200ms pulsate infinite alternate ease-in-out;
-  -moz-animation: 5200ms pulsate infinite alternate ease-in-out;
-  -ms-animation: 5200ms pulsate infinite alternate ease-in-out;
-  -o-animation: 5200ms pulsate infinite alternate ease-in-out;
-  animation: 5200ms pulsate infinite alternate ease-in-out;
+  -webkit-animation: 9200ms pulsate infinite alternate ease-in-out;
+  -moz-animation: 9200ms pulsate infinite alternate ease-in-out;
+  -ms-animation: 9200ms pulsate infinite alternate ease-in-out;
+  -o-animation: 9200ms pulsate infinite alternate ease-in-out;
+  animation: 9200ms pulsate infinite alternate ease-in-out;
 }
 .shape2.animated {
-  -webkit-animation: 5400ms pulsate infinite alternate ease-in-out;
-  -moz-animation: 5400ms pulsate infinite alternate ease-in-out;
-  -ms-animation: 5400ms pulsate infinite alternate ease-in-out;
-  -o-animation: 5400ms pulsate infinite alternate ease-in-out;
-  animation: 5400ms pulsate infinite alternate ease-in-out;
+  -webkit-animation: 9400ms pulsate infinite alternate ease-in-out;
+  -moz-animation: 9400ms pulsate infinite alternate ease-in-out;
+  -ms-animation: 9400ms pulsate infinite alternate ease-in-out;
+  -o-animation: 9400ms pulsate infinite alternate ease-in-out;
+  animation: 9400ms pulsate infinite alternate ease-in-out;
 }
 .shape3.animated {
-  -webkit-animation: 4500ms pulsate infinite alternate ease-in-out;
-  -moz-animation: 4500ms pulsate infinite alternate ease-in-out;
-  -ms-animation: 4500ms pulsate infinite alternate ease-in-out;
-  -o-animation: 4500ms pulsate infinite alternate ease-in-out;
-  animation: 4500ms pulsate infinite alternate ease-in-out;
+  -webkit-animation: 9500ms pulsate infinite alternate ease-in-out;
+  -moz-animation: 9500ms pulsate infinite alternate ease-in-out;
+  -ms-animation: 9500ms pulsate infinite alternate ease-in-out;
+  -o-animation: 9500ms pulsate infinite alternate ease-in-out;
+  animation: 9500ms pulsate infinite alternate ease-in-out;
 }
 .shape4.animated {
-  -webkit-animation: 5300ms pulsate infinite alternate ease-in-out;
-  -moz-animation: 5300ms pulsate infinite alternate ease-in-out;
-  -ms-animation: 5300ms pulsate infinite alternate ease-in-out;
-  -o-animation: 5300ms pulsate infinite alternate ease-in-out;
-  animation: 5300ms pulsate infinite alternate ease-in-out;
+  -webkit-animation: 9300ms pulsate infinite alternate ease-in-out;
+  -moz-animation: 9300ms pulsate infinite alternate ease-in-out;
+  -ms-animation: 9300ms pulsate infinite alternate ease-in-out;
+  -o-animation: 9300ms pulsate infinite alternate ease-in-out;
+  animation: 9300ms pulsate infinite alternate ease-in-out;
 }
 
 @keyframes pulsate {
