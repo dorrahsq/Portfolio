@@ -88,8 +88,8 @@ const Projects = () => {
                 <BsFillPlayCircleFill />
               </button>
 
-              <img className="websiteImage" src={projects.projeect1.image} />
-              <div class="shadow"></div>
+              <img className="websiteImage" src={projects.projeect1.image} alt=""/>
+              <div className="shadow"></div>
             </div>
           </div>
         </Fade>
@@ -124,7 +124,7 @@ const Projects = () => {
               >
                 <BsFillPlayCircleFill />
               </button>
-              <img className="websiteImage" src={projects.projeect2.image} />
+              <img className="websiteImage" src={projects.projeect2.image} alt="" />
             </div>
           </div>
         </Fade>
@@ -159,7 +159,7 @@ const Projects = () => {
               >
                 <BsFillPlayCircleFill />
               </button>
-              <img className="websiteImage" src={projects.projeect3.image} />
+              <img className="websiteImage" src={projects.projeect3.image} alt="" />
             </div>
           </div>
         </Fade>
