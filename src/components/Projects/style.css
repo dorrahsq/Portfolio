@@ -133,6 +133,9 @@
   border-style: none;
   color: white;
 }
+.imageContainer{
+position: relative;
+}
 @media all and (max-width: 1400px) {
   .leftProject,
   .rightProject {

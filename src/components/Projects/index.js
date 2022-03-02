@@ -77,7 +77,7 @@ const Projects = () => {
               </p>
               <p className="techP">Tech: {projects.projeect1.usedTech}</p>
             </div>
-            <div>
+            <div className="imageContainer">
               <button
                 className="btn-primary"
                 onClick={() => {
@@ -114,7 +114,7 @@ const Projects = () => {
               </p>
               <p className="techP">Tech: {projects.projeect2.usedTech} </p>
             </div>
-            <div>
+            <div className="imageContainer">
               <button
                 className="btn-primary2"
                 onClick={() => {
@@ -149,7 +149,7 @@ const Projects = () => {
               </p>
               <p className="techP">Tech: {projects.projeect3.usedTech}</p>
             </div>
-            <div>
+            <div className="imageContainer">
               <button
                 className="btn-primary"
                 onClick={() => {
