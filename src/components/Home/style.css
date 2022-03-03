@@ -13,7 +13,7 @@
   margin-top: 15%;
   border-radius: 20px;
   width: 55vw;
-  height: 21vw;
+  height: 22vw;
   text-align: center;
   background-color: #ffffff10;
   backdrop-filter: blur(12px);
@@ -85,7 +85,7 @@
   }
   100% {
     width: 55vw;
-    height: 25vw;
+    height: 22vw;
     background: #fafafa;
     box-shadow: 40px 40px 40px #cccccc96, 0 0 0 #ffffff85,
       0 0 rgba(204, 204, 204, 0.575) cc inset, 2px 2px 2px #ffffffa2 inset;
