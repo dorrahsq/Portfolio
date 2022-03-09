@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
   font-family: "Quintessential", cursive;
   padding-bottom: 5%;
   position: relative;
@@ -23,7 +22,9 @@
   align-items: center;
   color: rgb(0, 0, 0);
   transition: 0.5s ease;
-  margin: 1vw;
+  outline: 1px solid rgb(187, 186, 186);
+  outline-offset: 1vw;
+  margin: 1.6vw;
   box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
   -webkit-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);

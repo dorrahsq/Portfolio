@@ -2,7 +2,6 @@
 
 .projectsContainer {
   margin-top: 5%;
-  color: white;
   position: relative;
   z-index: 2;
   text-align: center;
@@ -36,6 +35,9 @@
   -webkit-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
   -moz-box-shadow: 6px 7px 11px -4px rgba(255, 255, 255, 0.3);
 }
+.websiteDescription{
+  font-size: 25px;
+  }
 .text1 {
   padding-left: 2%;
   width: 50%;
@@ -84,7 +86,6 @@
 .headLine a,
 .headLineRight a {
   text-decoration: none;
-  color: white;
 }
 .icon {
   transition: 0.5s ease;
@@ -95,9 +96,9 @@
   transform: scale(1.25) perspective(1px);
   cursor: pointer;
 }
-.techP {
+/* .techP {
   color: rgb(204, 202, 202);
-}
+} */
 .websiteDescription,
 .techP {
   margin-right: 10px;
@@ -131,7 +132,7 @@
   width: 2.5vw;
   background-color: rgba(0, 0, 0, 0);
   border-style: none;
-  color: white;
+  color: gray;
 }
 .imageContainer {
   position: relative;

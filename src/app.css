@@ -4,10 +4,30 @@
 }
 
 .App {
-  width: 100vw;
   background: linear-gradient(-45deg, #422015, #5a1630, #10485c, #0c5040);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
+  color: white;
+}
+.App-Light {
+  color: rgb(3, 3, 3);
+  background-color: rgb(212, 211, 211);
+}
+.mode {
+  z-index: 10;
+  font-size: 2.5vw;
+  top: 30px;
+  left: 35px;
+  position: sticky;
+  display: inline-block;
+  transition: 0.5s ease;
+}
+.mode:hover {
+  cursor: pointer;
+  transform: scale(1.25) perspective(1px);
+}
+.nightMode {
+  color: white;
 }
 
 @keyframes gradient {
@@ -37,12 +57,26 @@
   border-radius: 50%;
   height: 38vw;
   width: 38vw;
+  /* filter: blur(5px); */
+}
+.backgroundStart .shape1,
+.backgroundStart .shape4 {
   background: rgb(157, 40, 128);
   background: radial-gradient(
     circle,
     rgba(157, 40, 128, 1) 58%,
     rgba(64, 32, 133, 1) 100%
   );
+}
+.backgroundStartLight .shape1,
+.backgroundStartLight .shape4 {
+  background: rgb(160, 111, 148);
+  background: radial-gradient(
+    circle,
+    rgb(160, 107, 147) 58%,
+    rgb(107, 94, 134) 100%
+  );
+  /* filter: blur(5px); */
 }
 .shape2 {
   top: 30vw;
@@ -52,12 +86,23 @@
   border-radius: 50%;
   height: 38vw;
   width: 38vw;
+}
+.backgroundStart .shape2 {
   background: rgb(83, 99, 126);
   background: linear-gradient(
     56deg,
     rgba(83, 99, 126, 1) 1%,
     rgba(72, 56, 135, 1) 28%,
     rgba(25, 24, 40, 0.7917542016806722) 76%
+  );
+}
+.backgroundStartLight .shape2 {
+  background: rgb(99, 107, 122);
+  background: linear-gradient(
+    56deg,
+    rgb(100, 108, 122) 1%,
+    rgb(102, 96, 126) 28%,
+    rgba(67, 66, 77, 0.678) 76%
   );
 }
 .shape3 {
@@ -68,11 +113,21 @@
   border-radius: 50%;
   height: 35vw;
   width: 35vw;
+}
+.backgroundStart .shape3 {
   background: rgb(31, 126, 137);
   background: radial-gradient(
     circle,
     rgba(31, 126, 137, 0.6601015406162465) 1%,
     rgba(12, 48, 52, 0.5760679271708684) 77%
+  );
+}
+.backgroundStartLight .shape3 {
+  background: rgb(90, 127, 131);
+  background: radial-gradient(
+    circle,
+    rgba(92, 124, 128, 0.66) 1%,
+    rgba(68, 83, 85, 0.576) 77%
   );
 }
 .shape4 {
