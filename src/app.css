@@ -15,7 +15,7 @@
 }
 .mode {
   z-index: 10;
-  font-size: 2.5vw;
+  font-size: 3vw;
   top: 30px;
   left: 35px;
   position: sticky;
@@ -228,5 +228,20 @@
   }
   100% {
     -o-transform: scale(1);
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .mode {
+    font-size: 4vw;
+    top: 30px;
+    left: 35px;
+  }
+}
+@media all and (max-width: 550px) {
+  .mode {
+    font-size: 5vw;
+    top: 10px;
+    left: 10px;
   }
 }
