@@ -11,12 +11,14 @@ function App() {
 
   return (
     <div className={nighttMode ? "App" : "App-Light"}>
+      <div className="modeContainer">
       <span
         className={nighttMode ? "mode nightMode" : "mode lightMode"}
         onClick={() => setNighttMode(!nighttMode)}
       >
         {nighttMode ? <MdOutlineNightlight /> : <BsSun />}
       </span>
+      </div>
       <Home />
       <Projects />
       <Contact />

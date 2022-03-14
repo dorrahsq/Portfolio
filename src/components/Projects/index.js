@@ -49,8 +49,8 @@ const Projects = () => {
         autoplay
         isOpen={isOpen}
         url={video}
-        videoId="L61p2uyiMSo"
-        playsInline
+        // videoId="L61p2uyiMSo"
+        playsInline={true}
         onClose={() => setOpen(false)}
       />
       <div className="projectsContainer">

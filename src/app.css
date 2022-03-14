@@ -13,15 +13,18 @@
   color: rgb(3, 3, 3);
   background-color: rgb(212, 211, 211);
 }
-.mode {
+
+.modeContainer {
   z-index: 10;
-  display: block;
   font-size: 3vw;
-  padding-top: 30px;
-  left: 35px;
   position: sticky;
-  display: inline-block;
+  top: 0;
+  padding-top: 30px;
+  padding-left: 35px;
+}
+.mode {
   transition: 0.5s ease;
+  display: inline-block;
 }
 .mode:hover {
   cursor: pointer;
@@ -233,16 +236,16 @@
 }
 
 @media all and (max-width: 1024px) {
-  .mode {
+  .modeContainer {
     font-size: 4vw;
     padding-top: 30px;
-    left: 35px;
+    padding-left: 35px;
   }
 }
 @media all and (max-width: 550px) {
-  .mode {
+  .modeContainer {
     font-size: 5vw;
     padding-top: 10px;
-    left: 10px;
+    padding-left: 10px;
   }
 }
