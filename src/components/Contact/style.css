@@ -53,3 +53,12 @@
   font-size: 5vw;
   text-shadow: 0 4px 30px rgba(255, 255, 255, 0.582);
 }
+
+/*? for safari (doesn't support outline radios) */
+@media not all and (min-resolution: 0.001dpcm) {
+  .linkedIn,
+  .github,
+  .mail {
+    outline: none;
+  }
+}
