@@ -50,6 +50,7 @@ const Projects = () => {
         isOpen={isOpen}
         url={video}
         videoId="L61p2uyiMSo"
+        playsInline
         onClose={() => setOpen(false)}
       />
       <div className="projectsContainer">
@@ -85,10 +86,14 @@ const Projects = () => {
                   setVideo(projects.projeect1.videoUrl);
                 }}
               >
-                <BsFillPlayCircleFill  className="videoIcon"/>
+                <BsFillPlayCircleFill className="videoIcon" />
               </button>
 
-              <img className="websiteImage" src={projects.projeect1.image} alt=""/>
+              <img
+                className="websiteImage"
+                src={projects.projeect1.image}
+                alt=""
+              />
               <div className="shadow"></div>
             </div>
           </div>
@@ -124,7 +129,11 @@ const Projects = () => {
               >
                 <BsFillPlayCircleFill className="videoIcon" />
               </button>
-              <img className="websiteImage" src={projects.projeect2.image} alt="" />
+              <img
+                className="websiteImage"
+                src={projects.projeect2.image}
+                alt=""
+              />
             </div>
           </div>
         </Fade>
@@ -157,9 +166,13 @@ const Projects = () => {
                   setVideo(projects.projeect3.videoUrl);
                 }}
               >
-                <BsFillPlayCircleFill  className="videoIcon"/>
+                <BsFillPlayCircleFill className="videoIcon" />
               </button>
-              <img className="websiteImage" src={projects.projeect3.image} alt="" />
+              <img
+                className="websiteImage"
+                src={projects.projeect3.image}
+                alt=""
+              />
             </div>
           </div>
         </Fade>

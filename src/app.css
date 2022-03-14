@@ -15,10 +15,10 @@
 }
 .mode {
   z-index: 10;
+  display: block;
   font-size: 3vw;
   padding-top: 30px;
   left: 35px;
-  display: block;
   position: sticky;
   display: inline-block;
   transition: 0.5s ease;
@@ -235,14 +235,14 @@
 @media all and (max-width: 1024px) {
   .mode {
     font-size: 4vw;
-    top: 30px;
+    padding-top: 30px;
     left: 35px;
   }
 }
 @media all and (max-width: 550px) {
   .mode {
     font-size: 5vw;
-    top: 10px;
+    padding-top: 10px;
     left: 10px;
   }
 }
