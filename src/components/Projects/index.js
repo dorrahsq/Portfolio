@@ -46,11 +46,12 @@ const Projects = () => {
     <>
       <ModalVideo
         channel="custom"
+        mute
         autoplay
         isOpen={isOpen}
         url={video}
-        // videoId="L61p2uyiMSo"
-        playsInline={true}
+        videoId={video}
+        playsinline
         onClose={() => setOpen(false)}
       />
       <div className="projectsContainer">
